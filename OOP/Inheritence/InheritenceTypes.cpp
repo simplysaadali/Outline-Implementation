@@ -56,7 +56,7 @@ int main(){
     s1.age = 20;
     s1.rollno = 101;
 
-    cout << "Single Inheritance\n";
+    cout << "Single Inheritance" << endl;
     s1.displayStudent();
 
     cout << endl;
@@ -67,7 +67,7 @@ int main(){
     e1.rollno = 101;
     e1.marks = 85;
 
-    cout << "Multilevel Inheritance\n";
+    cout << "Multilevel Inheritance" << endl;
     e1.displayExam();
 
     cout << endl;
@@ -79,7 +79,7 @@ int main(){
     r1.marks = 90;
     r1.game = "Cricket";
 
-    cout << "Multiple Inheritance\n";
+    cout << "Multiple Inheritance"  << endl;
     r1.displayResult();
 
     return 0;
