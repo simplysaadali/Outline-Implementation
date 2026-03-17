@@ -10,8 +10,6 @@ Code, Compile, Run and Debug online from anywhere in world.
 using namespace std;
 
 int main(){
-    int stars = 1;
-    
     for(int i = 0; i <= 5; i++){
         for(int j = i; j < 5; j++){
             cout << " ";
